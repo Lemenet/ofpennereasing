@@ -7,6 +7,15 @@ You can download an openframeworks usage example here
 
 http://www.jesusgollonet.com/blog/2007/09/24/penner-easing-cpp/
 
+//--------------------
+函数中参数意义：
+t：时间轴输入值（0开始）
+b：输出的最小值
+c：调整系数，通过这个值调整图像的陡峭程度
+d：最大时间
+
+注意：函数内部不判断输入值是否超过最大，需要调用函数前限定输入范围，t应该在0到d之间。
+//--------------------
 
 TODO:
 	
